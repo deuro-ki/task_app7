@@ -50,6 +50,10 @@ p {
   line-height: 1.7em;
 }
 
+#header {
+  background-color: teal;
+}
+
 /* header */
 
 #logo {
@@ -57,17 +61,39 @@ p {
   margin-right: 10px;
   font-size: 1.7em;
   color: #fff;
-  text-transform: none;
+  font-style: italic;
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+  &:hover {
+    color: silver;
+    text-decoration: none;
+  }
 }
-
 
 #logo:hover {
   color: #fff;
   text-decoration: none;
 }
+
+
+li .header-list {
+  color: #fff!important;
+  font-weight: bold;
+  &:hover {
+    color: silver!important;
+  }
+}
+
+#dropdown-title {
+  background-color: teal;
+}
+
+li .dropdown-header {
+  background-color: rgba(200, 200, 200, 0.5);
+  font-weight: bold;
+}
+
 
 .debug_dump {
   clear: both;

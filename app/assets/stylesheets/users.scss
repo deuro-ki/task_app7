@@ -3,24 +3,44 @@
   text-align: center;
 }
 
-.label-signup {
+.label-form {
   margin-top: 5px;
 }
 
-.btn-signup {
+.btn-form {
   margin-top: 10px;
 }
 
-.label-user--edit {
+.label-form {
   margin-top: 5px;
 }
 
-.btn-user--edit {
+.btn-form {
   margin-top: 10px;
 }
 
 #table-users {
+  
+  th {
+    vertical-align: middle;
+  }
+  
   td {
     vertical-align: middle;
   }
 }
+
+.label-user-division {
+  margin-left: 5px;
+}
+
+#table-user {
+  table-layout: fixed; width: 100%;
+  th {
+    vertical-algn: middle;
+    white-space: none;
+    text-align: center;
+  }
+}
+
+
